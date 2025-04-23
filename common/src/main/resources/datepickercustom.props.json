@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "selectedDate": {
+      "type": "string",
+      "format": "date",
+      "description": "The currently selected date."
+    },
+    "placeholder": {
+      "type": "string",
+      "description": "Placeholder text when no date is selected."
+    },
+    "disabled": {
+      "type": "boolean",
+      "description": "Whether the date picker is disabled.",
+      "default": false
+    },
+    "styles": {
+      "$ref": "urn:ignition-schema:schemas/style-properties.schema.json"
+    }
+  }
+}
